@@ -1,0 +1,58 @@
+html {
+	overflow-y: scroll; 
+}
+
+body {
+  background:white;
+  font-family:'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration:none;
+  color:main;
+  transition:.5s ease;
+}
+
+.form {
+  background:white;
+  padding:40px;
+  max-width:600px;
+  margin:40px auto;
+  border-radius:25px;
+}
+
+.tab-group {
+  list-style:none;
+  padding:0;
+  margin:0 0 40px 0;
+  text-align:center;
+}
+
+.input {
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+h2 {
+  text-align:center;
+  color:black;
+  font-weight:thin;
+  margin:0 0 40px;
+}
+
+.checkbox {
+    text-align:center;
+    display: flex;
+    align-items: center;
+}
+
+.one-line{
+    width:310px;
+    height:30px;
+}
+
+.two-line{
+    width:150px;
+    height:30px;
+}
+
